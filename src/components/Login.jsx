@@ -7,7 +7,7 @@ export default function login() {
         <img className='absolute w-full h-full object-cover opacity-30 lg:opacity-100' src={login_img} alt="/" />
 
         <div className='relative flex items-center h-full lg:mr-[45%]'>
-            <form className='max-w-[400px] w-full mx-auto bg-gradient-to-bl from-white/90 to-gray-300/90 shadow-sm rounded-md p-8'>
+            <form className='max-w-[400px] w-full mx-auto bg-white p-8 rounded-md'>
                 <h2 className='text-4xl font-bold text-center py-8'>Login</h2>
                 <div className='flex flex-col mb-4 '>
                     <label>Username</label>
