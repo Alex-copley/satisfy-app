@@ -20,7 +20,7 @@ export default function Login() {
                             <h1 className='text-5xl font-bold azonix-font'>atisfyMe</h1>
                         </div>
                         <div className='flex items-center justify-between'>
-                            <h2 className='text-2xl py-2'>Sign In</h2>
+                            <h2 className='text-2xl py-4'>Sign In</h2>
                             <p>or <button className='text-1xl text-[#10afe9] hover:cursor-pointer hover:text-[#0b4cb2]' onClick={() => setIsHidden(!isHidden)}>create an account</button></p>
                         </div>
                         <div className='flex flex-col mb-4 '>
@@ -39,12 +39,12 @@ export default function Login() {
             {isHidden && (
                 <div className='relative flex items-center h-full lg:ml-[55%]'>
                     <form className='max-w-[400px] w-full mx-auto bg-white p-8 rounded-md'>
-                    <div className='flex items-center w-full justify-center'>
+                        <div className='flex items-center w-full justify-center'>
                             <img className='h-20' src={logo_img} alt="" />
                             <h1 className='text-5xl font-bold azonix-font'>atisfyMe</h1>
                         </div>
                         <div className='flex items-center justify-between'>
-                            <h2 className='text-2xl py-2'>Create an account</h2>
+                            <h2 className='text-2xl py-4'>Create an account</h2>
                             <p>or <button className='text-1xl text-[#10afe9] hover:cursor-pointer hover:text-[#0b4cb2]' onClick={() => setIsHidden(!isHidden)}>log in</button></p>
                         </div>
 
