@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'azonix';
+    src: url('./assets/fonts/Azonix.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.azonix-font {
+    font-family: 'azonix', sans-serif;
+}
