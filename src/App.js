@@ -1,5 +1,4 @@
 import React from 'react'
-import Home from "./pages/Home"
 import Login from "./pages/Login"
 
 // App is a function component in ReactJS that returns a div element
