@@ -3,7 +3,6 @@ import { useState } from 'react';
 import login_img from "../assets/satisfyme_hero.png";
 import logo_img from "../assets/satisfy_logo-removebg.png";
 
-
 export default function Login() {
     const [isHidden, setIsHidden] = useState(false)
     return (
@@ -17,7 +16,7 @@ export default function Login() {
 
                         <div className='flex items-center w-full justify-center'>
                             <img className='h-20' src={logo_img} alt="" />
-                            <h1 className='text-5xl font-bold azonix-font'>atisfyMe</h1>
+                            <h1 className='text-5xl font-bold azonix-font drop-shadow-lg gradient-underline'>atisfyMe</h1>
                         </div>
                         <div className='flex items-center justify-between'>
                             <h2 className='text-2xl py-4'>Sign In</h2>
@@ -29,8 +28,8 @@ export default function Login() {
                         <div className='flex flex-col'>
                             <input className='border border-gray-400 relative bg-white lg:bg-transparent p-2 rounded-md' placeholder="Password" type="password" />
                         </div>
-                        <button className='w-full py-3 mt-8 bg-[#0b4cb2] hover:bg-[#10afe9] rounded-md relative text-white'>Sign In</button>
                         <p className='flex items-center mt-2'><input className='mr-2 hover:cursor-pointer' type="checkbox" />Remember Me</p>
+                        <button className='w-full py-3 mt-8 bg-[#0b4cb2] hover:bg-[#10afe9] rounded-md relative text-white'>Sign In</button>
                     </form>
                 </div>
             )}

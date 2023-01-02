@@ -12,3 +12,17 @@
 .azonix-font {
     font-family: 'azonix', sans-serif;
 }
+
+  .gradient-underline {
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right,
+    #E4B53B,
+    #EDAD32,
+    #FF7035,
+    #FF4E5F,
+    #C13AC5,
+    #11B9ED,
+    #9CEFEE,
+    #1CE391
+    ) 1;
+  }
