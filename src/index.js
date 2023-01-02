@@ -7,7 +7,6 @@ import Login from "./pages/Login"
 import {
   createBrowserRouter,
   RouterProvider,
-  Route
 } from "react-router-dom";
 
 
