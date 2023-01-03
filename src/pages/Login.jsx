@@ -20,13 +20,13 @@ export default function Login() {
 
             {/* Sign In Form */}
             {!isHidden && (
-                <div className='relative flex items-center h-full lg:ml-[55%]'>
+                <div className='relative flex items-center h-full mx-6 lg:ml-[55%]'>
                     <form className='max-w-[400px] w-full mx-auto bg-white p-8 rounded-md'>
 
                         {/* Logo and title */}
                         <div className='flex items-center w-full justify-center'>
-                            <img className='h-20' src={logo_img} alt="" />
-                            <h1 className='text-5xl font-bold azonix-font'>atisfyMe</h1>
+                            <img className='h-10 md:h-20' src={logo_img} alt="" />
+                            <h1 className='text-3xl md:text-5xl font-bold azonix-font'>atisfyMe</h1>
                         </div>
                         {/* Title and switch between forms */}
                         <div className='flex items-center justify-between'>
@@ -52,13 +52,13 @@ export default function Login() {
             {/* Sign Up Form */}
             {/* Form is displayed if isHidden is true, using a ternary expression */}
             {isHidden && (
-                <div className='relative flex items-center h-full lg:ml-[55%]'>
+                <div className='relative flex items-center h-full mx-6 lg:ml-[55%]'>
                     {/* Form with input fields for first name, last name, email, and password */}
                     <form className='max-w-[400px] w-full mx-auto bg-white p-8 rounded-md'>
                         {/* Logo and heading for the form */}
                         <div className='flex items-center w-full justify-center'>
-                            <img className='h-20' src={logo_img} alt="" />
-                            <h1 className='text-5xl font-bold azonix-font'>atisfyMe</h1>
+                            <img className='h-10 md:h-20' src={logo_img} alt="" />
+                            <h1 className='text-3xl md:text-5xl font-bold azonix-font'>atisfyMe</h1>
                         </div>
                         {/* Heading and "log in" button to toggle form display */}
                         <div className='flex items-center justify-between'>
