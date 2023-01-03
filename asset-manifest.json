@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/satisfy-app/static/css/main.8b9e69ba.css",
-    "main.js": "/satisfy-app/static/js/main.afab59b7.js",
+    "main.css": "/satisfy-app/static/css/main.cd27d40d.css",
+    "main.js": "/satisfy-app/static/js/main.be9634a1.js",
     "static/media/satisfyme_hero.png": "/satisfy-app/static/media/satisfyme_hero.0e220c0c5baf5fbbd5a8.png",
     "static/media/satisfy_logo-removebg.png": "/satisfy-app/static/media/satisfy_logo-removebg.fc6ce033af4eb365f509.png",
     "static/media/Azonix.ttf": "/satisfy-app/static/media/Azonix.50956986d4327304a45f.ttf",
     "index.html": "/satisfy-app/index.html",
-    "main.8b9e69ba.css.map": "/satisfy-app/static/css/main.8b9e69ba.css.map",
-    "main.afab59b7.js.map": "/satisfy-app/static/js/main.afab59b7.js.map"
+    "main.cd27d40d.css.map": "/satisfy-app/static/css/main.cd27d40d.css.map",
+    "main.be9634a1.js.map": "/satisfy-app/static/js/main.be9634a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b9e69ba.css",
-    "static/js/main.afab59b7.js"
+    "static/css/main.cd27d40d.css",
+    "static/js/main.be9634a1.js"
   ]
 }
