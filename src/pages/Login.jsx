@@ -15,7 +15,7 @@ export default function Login() {
 
     // Return the div element that contains the form
     return (
-        <div className='w-full h-screen'>
+        <div className='w-full h-screen overscroll-y-none'>
             <img className='absolute w-full h-full object-cover opacity-80 lg:opacity-100' src={login_img} alt="/" />
 
             {/* Sign In Form */}
